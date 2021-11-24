@@ -47,7 +47,7 @@ http://my.newspub.kr/api/report?key={발급받은KEY}&sdate={통계요청시작�
 ```
 
 Key|Key|Mandantory|Description
-:---:|:---:|:---:|:---:|:---
+:---:|:---:|:---:|:---
 result|||O|응답 코드
 message|||O|응답 메세지
 data|||O|응답 데이터
