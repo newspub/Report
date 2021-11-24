@@ -53,7 +53,7 @@ message||O|응답 메세지
 data||O|응답 데이터
 ||ymd|O|통계 대상일
 ||imp|O|노출 수치
-||clk|O|Click 수치
+||clk|O|클릭 수치
 ||revenue|O|수익 (KRW)
 
 # 응딥 코드 (result)
