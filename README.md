@@ -1,4 +1,4 @@
-# Server to server integration
+# Report integration
 
 "뉴스펍"을 선택해 주셔서 감사합니다.<br>
 통계를 요청하기 위해서는 key를 발급받아야 합니다.<br>
