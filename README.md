@@ -60,15 +60,15 @@ http://my.newspub.kr/api/report?key={발급받은KEY}&sdate={통계요청시작�
 
 ```
 
-Key|Key|Mandantory|Description
-:---:|:---:|:---:|:---:|:---
-result|||O|응답 코드
-message|||O|응답 메세지
-data|||O|응답 데이터
-||ymd|O|통계 대상일
-||media|O|날짜별 매체 데이터
-|||clk|O|클릭 수치
-|||revenue|O|수익 (KRW)
+Key|Key|Key|Mandantory|Type|Description
+:---:|:---:|:---:|:---:|:---|:---
+result|||O|Object|응답 코드
+message|||O|Object|응답 메세지
+data|||O|List|응답 데이터
+||ymd||O|Object|통계 대상일
+||media||O|List|날짜별 매체 데이터
+|||clk|O|Object|클릭 수치
+|||revenue|O|Object|수익 (KRW)
 
 # 응딥 코드 (result)
 Code|Description
