@@ -32,27 +32,43 @@ http://my.newspub.kr/api/report?key={발급받은KEY}&sdate={통계요청시작�
 # Response sample.
 
 {
-  result: 0,
-  message: "success",
-  data: [
-    {
-      ymd: "20211123",
-      clk: 9,
-      revenue: 0
-    }
-  ]
+    "result": 0,
+    "message": "success",
+    "data": [
+        {
+            "ymd": "20220117",
+            "media": [
+                {
+                    "mid": "607e5f007f88ba08cb651f93",
+                    "clk": 1,
+                    "revenue": 0.0
+                }
+            ]
+        },
+        {
+            "ymd": "20220118",
+            "media": [
+                {
+                    "mid": "607e5f007f88ba08cb651f93",
+                    "clk": 1,
+                    "revenue": 0.0
+                }
+            ]
+        }
+    ]
 }
 
 ```
 
 Key|Key|Mandantory|Description
-:---:|:---:|:---:|:---
-result||O|응답 코드
-message||O|응답 메세지
-data||O|응답 데이터
+:---:|:---:|:---:|:---:|:---
+result|||O|응답 코드
+message|||O|응답 메세지
+data|||O|응답 데이터
 ||ymd|O|통계 대상일
-||clk|O|클릭 수치
-||revenue|O|수익 (KRW)
+||media|O|날짜별 매체 데이터
+|||clk|O|클릭 수치
+|||revenue|O|수익 (KRW)
 
 # 응딥 코드 (result)
 Code|Description
