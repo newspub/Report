@@ -23,7 +23,7 @@ sdate|O|통계 요청 시작일 (yyyyMMdd)
 edate|O|통계 요청 종료일 (yyyyMMdd)
 
 # Request sample
-http://my.newspub.kr/api/report?key={발급받은KEY}&sdate={통계요청시작일}&edate={통계요청종료일}
+https://my.newspub.kr/api/report?key={발급받은KEY}&sdate={통계요청시작일}&edate={통계요청종료일}
 
 # Response
 
