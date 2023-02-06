@@ -14,7 +14,7 @@
 
 Status|URL
 :---:|:---:
-LIVE|http://my.newspub.kr/api/report
+LIVE|https://my.newspub.kr/api/report
 
 Parameter|Mandantory|Description
 :---:|:---:|:---:
